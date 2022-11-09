@@ -7,7 +7,7 @@ const Component = (props) => {
   return (
     <>
     {    
-        error && <div>{somethingNotDefined}</div>
+        error && <div>{uncoughterror}</div>
     }
     </>
   );
