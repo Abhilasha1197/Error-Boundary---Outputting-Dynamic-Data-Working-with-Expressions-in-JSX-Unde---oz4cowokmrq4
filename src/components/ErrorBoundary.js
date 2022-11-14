@@ -2,10 +2,13 @@ import React from "react";
 
 class ErrorBoundary extends React.Component {
  
-
+  static getDerivedStateFromError(error) {
+    // Update state so the next render will show the fallback UI.
+    return { hasError: true };
+  }
 
   render() {
-    console.log('errpr');
+    
     if (this.state.hasError) {
       return (
         <p id="error">
