@@ -3,7 +3,9 @@ import React from "react";
 class ErrorBoundary extends React.Component {
  
 
+
   render() {
+    console.log('errpr');
     if (this.state.hasError) {
       return (
         <p id="error">

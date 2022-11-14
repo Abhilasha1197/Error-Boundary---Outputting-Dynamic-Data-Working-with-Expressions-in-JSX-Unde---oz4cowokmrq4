@@ -4,7 +4,7 @@ import Component from "./Component";
 import ErrorBoundary from "./ErrorBoundary";
 const App = () => {
 
-
+  console.log('app');
   return (
 
     <div id="main">
